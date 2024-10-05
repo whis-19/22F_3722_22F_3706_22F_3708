@@ -20,4 +20,7 @@ public class Library {
             System.out.println(bookName + " not found in library.");
         }
     }
+    public boolean searchBook(String bookName) {
+        return books.contains(bookName);
+    }
 }
