@@ -23,4 +23,5 @@ public class Library {
     public boolean searchBook(String bookName) {
         return books.contains(bookName);
     }
+    //resolved issue #3
 }
