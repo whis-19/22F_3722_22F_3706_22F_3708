@@ -12,4 +12,12 @@ public class Library {
     public void listBooks() {
         System.out.println("Books in library: " + books);
     }
+
+    public void removeBook(String bookName) {
+        if (books.remove(bookName)) {
+            System.out.println(bookName + &quot; removed from library.&quot;);
+        } else {
+            System.out.println(bookName + &quot; not found in library.&quot;);
+        }
+    }
 }
